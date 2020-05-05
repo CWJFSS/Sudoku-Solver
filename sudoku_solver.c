@@ -1,5 +1,4 @@
 /*
- * CSC A48 - Exercise 11 - Sudoku Solver
  * 
  * Your goal in this exercise is to practice recursion and
  * to see how a properly written recursive solution can
@@ -81,7 +80,6 @@
  * - Can I change the 'print_sudoku()' function?
  * 	- Please don't, we may need it for testing!
  * 
- * (c) F. Estrada, March 2019
  */
 
 #include<stdio.h>
@@ -158,7 +156,7 @@ int find_unassigned_location(int sudoku[9][9], int *row, int *col) {
       ---------------------
  */
 
-int vc_solve_sudoku(int sudoku[9][9]) {
+int solve-s(int sudoku[9][9]) {
   int row, col;
 
   // if there is no un-assigned location, we are done!!!
@@ -207,7 +205,7 @@ void solve_sudoku(int sudoku[9][9], int depth)
    * TO DO:
    * Complete this function
    *****/ 
-  vc_solve_sudoku(sudoku); 
+  solve-s(sudoku); 
 }
 
 #ifndef __testing
